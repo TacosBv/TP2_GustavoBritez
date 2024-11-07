@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #023c4f;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #c7d1d5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #3ca5d2;
+    padding: 10px;
+    text-align: center;
+}
+
+.descripcion {
+    background-color: #1a98a8; /* Color de fondo claro */
+    padding: 20px;
+    margin: 20px auto; /* Centra el div horizontalmente */
+    width: 80%; /* Ajusta el ancho del cuadro */
+    text-align: center; /* Centra el texto dentro del cuadro */
+    border-radius: 10px; /* (Opcional) Redondea las esquinas del cuadro */
+}
+
+h1 {
+    text-align: center;
+}
+
+.boton {
+    background-image: linear-gradient(to bottom, #0a7aab, #3ca5d2);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    text-shadow: 1px 1px 1px black; /* Borde negro a las letras del botón */
+}
+
+.boton:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #4c8699;
+}
+
+th, td {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: left;
+}
+
+.imagen-empleado {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ADD8E6;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%; /* Ajusta el ancho de cada imagen-empleado según sea necesario */
+}
+
+.imagen-empleado p {
+    text-align: center;
+}
+.imagen-empleado img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se ajusten a varias filas si es necesario */
+    justify-content: space-around; /* Distribuye el espacio entre las imágenes */
+}
+
+.imagen-empleado:hover {
+    transform: scale(1.1); /* Escala la imagen un 10% */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
+  }
+
+.derechos {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
