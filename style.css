@@ -10,39 +10,6 @@ body {
     align-items: center;
 }
 
-header {
-    background-color: #c7d1d5;
-    padding: 20px;
-    text-align: center;
-}
-
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
-}
-
-section {
-    padding: 20px;
-    text-align: center;
-}
-
-footer {
-    background-color: #3ca5d2;
-    padding: 10px;
-    text-align: center;
-}
-
-.descripcion {
-    background-color: #1a98a8; /* Color de fondo claro */
-    padding: 20px;
-    margin: 20px auto; /* Centra el div horizontalmente */
-    width: 80%; /* Ajusta el ancho del cuadro */
-    text-align: center; /* Centra el texto dentro del cuadro */
-    border-radius: 10px; /* (Opcional) Redondea las esquinas del cuadro */
-}
-
-    text-align
 h1 {
     text-align: center;
 }
@@ -60,7 +27,7 @@ h1 {
     cursor: pointer;
     border-radius: 20px;
     transition: all 0.3s ease;
-    text-shadow: 1px 1px 1px black; /* Borde negro a las letras del botón */
+    text-shadow: 1px 1px 1px black;
 }
 
 .boton:hover {
@@ -90,12 +57,13 @@ th, td {
     border: 2px solid #ADD8E6;
     padding: 10px;
     border-radius: 10px;
-    width: 30%; /* Ajusta el ancho de cada imagen-empleado según sea necesario */
+    width: 30%;
 }
 
 .imagen-empleado p {
     text-align: center;
 }
+
 .imagen-empleado img {
     width: 200px;
     height: 200px;
@@ -105,14 +73,14 @@ th, td {
 
 .contenedor-imagenes {
     display: flex;
-    flex-wrap: wrap; /* Permite que las imágenes se ajusten a varias filas si es necesario */
-    justify-content: space-around; /* Distribuye el espacio entre las imágenes */
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .imagen-empleado:hover {
-    transform: scale(1.1); /* Escala la imagen un 10% */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Agrega una sombra */
-  }
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
 
 .derechos {
     text-align: center;
@@ -120,3 +88,11 @@ th, td {
     font-size: 12px;
 }
 
+.descripcion {
+    background-color: #1a98a8;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+}
